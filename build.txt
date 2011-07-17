@@ -1,0 +1,7 @@
+==Basic build command==
+dmd lzma.d lzma_/base.d lzma_/bcj.d lzma_/block.d lzma_/check.d lzma_/container.d lzma_/delta.d lzma_/filter.d lzma_/hardware.d lzma_/index.d lzma_/index_hash.d lzma_/lzma.d lzma_/stream_flags.d lzma_/version_.d lzma_/vli.d -lib -of../liblzmad.a
+
+==Example==
+dmd example/xz_pipe_comp.d -L-L./ -L-llzmad -L-llzma -Isrc
+
+

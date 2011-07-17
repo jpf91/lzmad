@@ -1,0 +1,8 @@
+#Ignore built library
+liblzmad.a
+
+#Ignore object files
+*.o
+
+#Ignore generated html docs
+doc/generated/*.html
